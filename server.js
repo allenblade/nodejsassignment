@@ -1,9 +1,9 @@
 'use strict';
 var http = require('http');
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 80;
 
 http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.write('Hello Alibaba Cloud\n');
-    res.end('Hello World\n' + res.connection.localPort);
+    //res.end('Hello World\n' + res.connection.localPort);
 }).listen(port);
