@@ -17,5 +17,8 @@ http.createServer(function (req, res) {
     } else if (req.url === '/.well-known/acme-challenge/VofYdRruOJCNSmjxEN2mORBryRGU-nkzbhmpVxsjozA') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end('VofYdRruOJCNSmjxEN2mORBryRGU-nkzbhmpVxsjozA.LZC-M2u8avSxuY8ofGDgP9qvUZkO4IrBQeEkTXpa3x4');
+    } else if (req.url === '/.well-known/acme-challenge/IUiFm-BUkKhzAw-kErD9UZN6WFbN_yU--oqtFFkUCXQ') {
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end('IUiFm-BUkKhzAw-kErD9UZN6WFbN_yU--oqtFFkUCXQ.LZC-M2u8avSxuY8ofGDgP9qvUZkO4IrBQeEkTXpa3x4');
     }
 }).listen(port);
