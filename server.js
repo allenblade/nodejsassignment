@@ -14,9 +14,9 @@ http.createServer(function (req, res) {
     } else if (req.url === '/verfication.html') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end('verify_a68b3979b7e74dacc6f9c6c018a8dca7');
-    } else if (req.url === '/.well-known/acme-challenge/VofYdRruOJCNSmjxEN2mORBryRGU-nkzbhmpVxsjozA') {
+    } else if (req.url === '/.well-known/acme-challenge/3OlmfvpXc7r-84SZVG2jbvwyxkuypPf1lc-iJ4mI538') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.end('VofYdRruOJCNSmjxEN2mORBryRGU-nkzbhmpVxsjozA.LZC-M2u8avSxuY8ofGDgP9qvUZkO4IrBQeEkTXpa3x4');
+        res.end('3OlmfvpXc7r-84SZVG2jbvwyxkuypPf1lc-iJ4mI538.QXuGpB2x2EdxzIjMDL38qPvhWt4upMG5UueH6gwQreo');
     } else if (req.url === '/.well-known/acme-challenge/IUiFm-BUkKhzAw-kErD9UZN6WFbN_yU--oqtFFkUCXQ') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end('IUiFm-BUkKhzAw-kErD9UZN6WFbN_yU--oqtFFkUCXQ.LZC-M2u8avSxuY8ofGDgP9qvUZkO4IrBQeEkTXpa3x4');
